@@ -61,19 +61,3 @@ print(f'Files: {count_files}, Lines: {count_lines}, Elapsed: {time_elapsed}s')
 Files: 561, Lines: 151826, Elapsed: 21.64s
 ```
 
-```mermaid
-graph LR
-A[d1] --> B((d2))
-A --> C((d2))
-A --> L((d2))
-B --> F((d3))
-C --> E((d4))
-C --> G((d4))
-B --> H((d3))
-B --> I((d3))
-C --> J((d4))
-C --> K((d4))
-C --> J((d4))
-L --> M((d5))
-L --> N((d5))
-```
