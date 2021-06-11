@@ -8,7 +8,7 @@ def read_string_from_file(filepath):
         try:
             with open(filepath, 'r', encoding=encoding) as file:
                 return file.read()
-        except:
+        except Exception as e:
             pass
 
 def count_code_lines(directory, size_file_max=25*10**6, size_dir_max=150*10**6,
