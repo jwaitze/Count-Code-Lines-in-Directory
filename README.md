@@ -60,6 +60,6 @@ print(f'Files: {count_files}, Lines: {count_lines}, Elapsed: {time_elapsed}s')
 ```
 #### Output:
 ```
-Files: 561, Lines: 151826, Elapsed: 21.64s
+Files: 191, Lines: 51170, Elapsed: 21.64s
 ```
 
