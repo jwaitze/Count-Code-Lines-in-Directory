@@ -62,8 +62,8 @@ def count_code_lines(directory, size_file_max=25*10**6, size_dir_max=150*10**6,
                 _result['count_lines'] += lines_file
                 if prnt:
                     print(f'Elapsed: {int(time.time() - _result["time_start"])}s,\t' \
-                          f'Lines File: {lines_file}, Lines Total: {_result["count_lines"]},\t' \
-                          f'Files: {_result["count_files"]}, Filename: {filename}\n', end='')
+                          f'Lines File: {lines_file},\tLines Total: {_result["count_lines"]},\t' \
+                          f'Files: {_result["count_files"]},\tFilename: {filename}\n', end='')
             elif os.path.isdir(filepath) and filepath != this_directory:
                 kwargs['_result'] = _result
                 kwargs['_depth'] += 1
