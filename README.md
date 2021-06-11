@@ -26,7 +26,7 @@ print(f'Files: {count_files}, Lines: {count_lines}, Elapsed: {time_elapsed}s')
 ```
 #### Output:
 ```
-Elapsed: 0s,	Lines File: 78,	Lines Total: 78,	Files: 1,	Filename: count_code_lines.py
+Elapsed: 0s, Lines File: 78, Lines Total: 78, Files: 1, Filename: count_code_lines.py
 Files: 1, Lines: 78, Elapsed: 0.05s
 ```
 
@@ -42,7 +42,7 @@ print(f'Files: {count_files}, Lines: {count_lines}, Elapsed: {time_elapsed}s')
 ```
 #### Output:
 ```
-Elapsed: 0s,	Lines File: 83,	Lines Total: 83,	Files: 1,	Filename: count_code_lines.py
+Elapsed: 0s, Lines File: 83, Lines Total: 83, Files: 1, Filename: count_code_lines.py
 Files: 1, Lines: 83, Elapsed: 0.03s
 ```
 
