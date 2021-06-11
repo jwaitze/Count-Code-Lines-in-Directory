@@ -12,6 +12,8 @@ There is none. Just put the [count_code_lines.py](https://github.com/jwaitze/Cou
 |----------------|-------------------------------|
 |`prnt`|if `True`, it is verbose
 |`count_blank_lines`|if `True`, blank lines and whitespace is also counted
+
+
 There are several other parameters that can be adjusted, but if you are confident enough to adjust them, then you are confident enough to take a gander inside the one code file. :P
 
 ## Usage
